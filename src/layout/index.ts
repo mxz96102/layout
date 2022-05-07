@@ -2,7 +2,7 @@ import { GridLayout } from "./grid";
 import { RandomLayout } from "./random";
 import { GForceLayout } from "./gForce";
 import { ForceLayout } from "./force";
-import { CircularLayout } from "./circular";
+import { CircularLayout } from "./circularV2";
 import { DagreLayout } from "./dagre";
 import { DagreCompoundLayout } from "./dagreCompound";
 import { RadialLayout } from "./radial";
