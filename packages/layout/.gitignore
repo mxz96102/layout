@@ -12,7 +12,6 @@ lerna-debug.log*
 
 # Node
 node_modules/
-.pnpm-lock.yaml
 
 # Build
 dist

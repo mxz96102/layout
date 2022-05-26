@@ -1,58 +1,22 @@
-## About
+# @antv/layout
 
-Layout algorithms for AntV
+> a library that contains layout functions for graph layout
 
-## Installation
 
-```shell
-# npm
-$ npm install @antv/layout --save
+[![Build Status](https://github.com/antvis/template/workflows/build/badge.svg)](https://github.com/antvis/template/actions)
+[![Coverage Status](https://coveralls.io/repos/github/antvis/template/badge.svg?branch=master)](https://coveralls.io/github/antvis/template?branch=master)
+[![npm Version](https://img.shields.io/npm/v/@antv/template.svg)](https://www.npmjs.com/package/@antv/template)
+[![npm Download](https://img.shields.io/npm/dm/@antv/template.svg)](https://www.npmjs.com/package/@antv/template)
+[![npm License](https://img.shields.io/npm/l/@antv/template.svg)](https://www.npmjs.com/package/@antv/template)
 
-# yarn
-$ yarn add @antv/layout
-```
+
+
 
 ## Usage
 
-```ts
-import { GridLayout } from '@antv/layout'
 
-const model = {
-  nodes: [
-    {
-      id: 'node1',
-      x: 0,
-      y: 0,
-    }, {
-      id: 'node2',
-      x: 20,
-      y: 20,
-    },
-  ],
-  edges: [
-    {
-      source: 'node1',
-      target: 'node2',
-    },
-  ],
-}
 
-const gridLayout = new GridLayout({
-  type: 'grid',
-  width: 600,
-  height: 400,
-  rows: 4,
-  cols: 4,
-})
-
-const newModel = gridLayout.layout(model)
-
-```
-
-## Documentation
-
-- [G6 Layout](https://g6.antv.vision/zh/docs/api/graphLayout/guide)
 
 ## License
 
-The scripts and documentation in this project are released under the [MIT License](LICENSE).
+MIT@[AntV](https://github.com/antvis).
